@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal {
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#principal button{
+    margin-right: 5%;
+}
+
+#principal div a {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+#menu {
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
