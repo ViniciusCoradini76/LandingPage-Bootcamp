@@ -5,6 +5,7 @@
     padding: 0px;
 }
 
+/* NAVBAR */
 #principal {
     width: 100%;
     height: 100px;
@@ -12,10 +13,22 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BABABA;
 }
 
-#principal button{
+#principal button {
     margin-right: 5%;
+    background-color: #0C70F2;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+    box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
 }
 
 #principal div a {
@@ -27,9 +40,14 @@
     font-family: 'Inter';
 }
 
+#principal div a:hover {
+    color: #CCCCCC;
+}
+
 #menu {
     display: flex;
-    width: 55%;
+    width: 45%;
     justify-content: space-around;
     align-items: center;
+    margin-left: 5%;
 }
