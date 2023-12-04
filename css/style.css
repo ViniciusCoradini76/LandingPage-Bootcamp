@@ -29,6 +29,7 @@
     color: white;
 
     box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
 }
 
 #principal div a {
