@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
 
-* {
+body {
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
+    background-repeat: no-repeat;
+
 }
 
 /* NAVBAR */
@@ -51,4 +54,36 @@
     justify-content: space-around;
     align-items: center;
     margin-left: 5%;
+}
+
+/*CABEÇALHO*/
+
+#tituloCabecalho {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+#paragrafo {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fundoEscuro {
+    background-color: black;
+}
+
+.form-group{
+
 }
