@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
 
+
+:root {
+    --azul-dnc: #0C70F2;
+    --preto-dnc: #303030;
+    --cinza-hover: #C9C9C9;
+
+    --fonte-padrao: 'inter';
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -12,7 +21,7 @@ body {
 #principal {
     width: 100%;
     height: 100px;
-    background-color: #303030;
+    background-color: var(--preto-dnc);
 
     display: flex;
     justify-content: space-between;
@@ -22,11 +31,11 @@ body {
 
 #principal button {
     margin-right: 5%;
-    background-color: #0C70F2;
+    background-color: var(--azul-dnc);
     border: 0px;
     height: 40px;
     width: 80px;
-    font-family: 'Inter';
+    font-family: var(--fonte-padrao);
     font-size: 20px;
     font-weight: 600;
     color: white;
@@ -41,11 +50,11 @@ body {
     font-weight: 600;
 
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: var(--fonte-padrao);
 }
 
 #principal div a:hover {
-    color: #CCCCCC;
+    color: var(--cinza-hover);
 }
 
 #menu {
@@ -58,32 +67,78 @@ body {
 
 /*CABEÇALHO*/
 
-#tituloCabecalho {
+header h1 {
     color: #FFF;
 
-    font-family: Inter;
+    font-family: var(--fonte-padrao);
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-align: center;
+
+    margin-bottom: 20px;
 }
 
-#paragrafo {
+header h2 {
     color: #FFF;
 
     text-align: center;
-    font-family: Inter;
+    font-family: var(--fonte-padrao);
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    margin-bottom: 100px;
 }
 
-.fundoEscuro {
+header .fundoEscuro {
     background-color: black;
+    font-weight: bold;
+    padding: 5px;
 }
 
-.form-group{
+/* Seção principal do site */
 
+section {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Formulario */
+
+form {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    border-radius: 10px;
+    height: 30px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+.form-group input::placeholder{
+    color: rgba(57, 57, 57, 0.50);
+}
+
+.form-group label {
+    margin: 10px 0px 10px 0px;
 }
