@@ -262,3 +262,53 @@ footer .linha2 a:first-child{
 footer .linha2 a:hover{
     color: var(--cinza-hover);
 }
+
+/* Uma media querie que tem 600px ou menos (Aparelhos menores) */ 
+
+@media only screen and (max-width: 600px){
+
+    /* Menu */
+#principal{
+    flex-direction: column;
+    height: auto;
+}
+
+#menu{
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+}
+
+#menu a{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+#principal button{
+    width: 100%;
+    margin: 0%;
+}
+
+/* Section */
+
+section h1 {
+    font-size: 40px;
+}
+
+section h2{
+    font-size: 28px;
+    padding: 0px 15px 0px 15px;
+}
+
+form{
+    width: 95%;
+    font-size: 20px;
+}
+
+.checkbox-itens label{
+    font-size: 17px;
+}
+
+
+}
