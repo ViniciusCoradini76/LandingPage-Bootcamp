@@ -263,6 +263,8 @@ footer .linha2 a:hover{
     color: var(--cinza-hover);
 }
 
+
+
 /* Uma media querie que tem 600px ou menos (Aparelhos menores) */ 
 
 @media only screen and (max-width: 600px){
@@ -297,8 +299,12 @@ section h1 {
 }
 
 section h2{
-    font-size: 28px;
+    font-size: 25px;
     padding: 0px 15px 0px 15px;
+}
+
+header .fundoEscuro{
+padding: 1px;
 }
 
 form{
@@ -310,5 +316,10 @@ form{
     font-size: 17px;
 }
 
+/* Footer */
+
+footer .linha1{
+    flex-direction: column;
+}
 
 }
